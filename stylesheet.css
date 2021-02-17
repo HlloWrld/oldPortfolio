@@ -1,0 +1,36 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+
+.iframeContainer {
+    margin: auto;
+    width: 70%;
+    
+
+}
+
+.customColor {
+    color: blanchedalmond;
+}
+
+
+h1.title {
+    color: blue;
+
+    font: serif;
+    font-family: 'Cinzel', serif;
+}
+
+div.navbar-menu {
+    font-family: 'Fauna One', serif;
+}
+
+p.p1 {
+    color: #F3D57C;
+}
+
+
+  
+body {
+	font-family: sans-serif, Arial, Helvetica;
+    background: #4C4D4C;
+    font-family: 'Fauna One', serif;
+}

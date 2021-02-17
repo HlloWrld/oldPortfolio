@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+<<<<<<< HEAD
     <title>Document</title>
 </head>
 <body>
@@ -17,5 +18,72 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/tT_yW1GKo0M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </p>
+=======
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&display=swap" rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="js/app.js"></script>
+    <script defer src="js/sparkline.js"></script>
+    <title>HlloWrld</title>
+</head>
+<body>
+
+
+
+    <nav class="navbar has-shadow is-white">
+        <div class="navbar-brand">
+           
+            <a class="navbar-item">
+                <img src="../hllowrld.github.io/skull.png" style="max-height: 70px" class="py-3 px-2">
+                <h1 class="title has-text-centered py-4">HlloWrld</h1>
+            </a>
+        </div>
+
+        <div class="navbar-menu" id="nav-links">
+            <div class="navbar-end">
+                <a class="navbar-item">About</a>
+                <a class="navbar-item">Contact</a>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <section>
+        <h2>BTC CURRENCY EXCHANGE TICKER</h2>
+        <table id="btcticker" class="table-striped">
+          <thead>
+            <tr>
+              <th>Currency</th>
+              <th>Price</th>
+              <th>Volume</th>
+              <th>Change</th>
+              <th>Price Trend (5 sec interval)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="5" data-currency="">Fetching data...Please wait for 5 sec</td>
+            </tr>
+          </tbody>
+        </table>
+  
+        <div id="tickertape" class="ticker-tape"></div>
+      </section>
+
+        <section class="section has-text-centered">
+            <div class="iframeContainer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tT_yW1GKo0M" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+        </section>
+
+    </div>
+        
+
+>>>>>>> initial_designs
 </body>
 </html>
