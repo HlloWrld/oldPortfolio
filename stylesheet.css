@@ -1,36 +1,40 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
-
-.iframeContainer {
-    margin: auto;
-    width: 70%;
-    
-
-}
-
-.customColor {
-    color: blanchedalmond;
-}
-
-
-h1.title {
-    color: #587B7F;
-
-    font: serif;
-    font-family: 'Cinzel', serif;
-}
-
-div.navbar-menu {
-    font-family: 'Fauna One', serif;
-}
-
-p.p1 {
-    color: #F3D57C;
-}
-
-
-  
+/* Setting global margin to zero first */
 body {
-	font-family: sans-serif, Arial, Helvetica;
-    background: #4C4D4C;
-    font-family: 'Fauna One', serif;
+    margin: 0;
+    background-color: #101010;
+    color: #f7f7f7;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+h1 {
+    color: #b0f9f3;
+    margin: 0;
+}
+
+/* Position fixed here if we want to have it stay while scrolling */
+/* z index set to 1000 to bring it to the front */
+.navBar {
+    background-color: #1a1c27;
+    display: flex;
+    color: #3abbac;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    z-index: 1000;
+    
+}
+
+.navWrap {
+    display: flex;
+    flex: 1 100px;
+    justify-content: flex-end;
+    margin-right: 32px;
+    grid-gap: 10px;
+}
+
+.wrapper {
+    position: relative;
+    top: 60px;
+    padding-left: 15px;
 }
