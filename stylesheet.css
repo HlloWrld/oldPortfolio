@@ -12,6 +12,20 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    color: #b0f9f3;
+    margin: 0;
+    text-decoration: none;
+}
+
+h3 {
+    color: #f7f7f7;
+    margin: 0;
+    padding-left: 35px;
+    text-decoration: none;
+}
+
+
 /* Position fixed here if we want to have it stay while scrolling */
 /* z index set to 1000 to bring it to the front */
 .navBar {
@@ -47,7 +61,7 @@ h1 {
     flex-wrap: wrap;
     grid-gap: 25px;
     justify-content: center;
-    padding-bottom: 20px;
+    padding: 20px 0px;
 
 }
 
