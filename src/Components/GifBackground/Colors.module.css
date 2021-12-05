@@ -1,0 +1,32 @@
+
+.videoSize {
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+}
+
+.landingHeader {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    text-align: center;
+    z-index: 1000;
+}
+
+.headderWrapper {
+    position: absolute;
+    justify-content: center;
+    top: 40%;
+
+}
+
+.colorContainer {
+   position: relative;
+}
