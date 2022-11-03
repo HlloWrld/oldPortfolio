@@ -1,10 +1,12 @@
 .navBar {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.178);
     color: #486499;
     display: flex;
     justify-content: space-between;
     gap: 16px;
-    position: sticky;
+  
+    bottom: 0;
+    width: 100%;
 }
 
 
@@ -18,9 +20,6 @@
 .navRight {
     margin-right: 36px;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
     gap: 26px;
     color:#486499; 
 }
@@ -31,6 +30,7 @@
     gap: 26px;
     text-decoration: none; 
     color:#486499; 
+
 }
 
 .center {
@@ -39,11 +39,7 @@
     align-items: center;
     text-decoration: none;
     color:#486499; 
-
+    font-size: 20px;
     
-}
-
-.noDecoration {
-    text-decoration: none;
 }
 

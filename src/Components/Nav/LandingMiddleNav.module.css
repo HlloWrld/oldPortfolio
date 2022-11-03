@@ -2,26 +2,33 @@
     background-color: white;
     color: #486499;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     gap: 16px;
-    position: sticky;
+    position: relative;
+    margin-bottom: 100px;
 }
 
+.noDecoration {
+    text-decoration: none;
+}
+
+.middleHeader {
+    margin-top: 0px;
+}
 
 .navLeft {
-    margin-left: 36px;
+
     display: flex;
     gap: 26px;
     color:#486499; 
 }
 
 .navRight {
-    margin-right: 36px;
+
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    gap: 26px;
+    gap: 66px;
     color:#486499; 
 }
 
@@ -41,9 +48,5 @@
     color:#486499; 
 
     
-}
-
-.noDecoration {
-    text-decoration: none;
 }
 

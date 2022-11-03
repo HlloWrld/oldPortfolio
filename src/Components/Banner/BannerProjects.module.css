@@ -1,0 +1,66 @@
+
+.videoSize {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    filter: hue-rotate(+365deg);
+    filter:opacity(75%);
+    
+
+    z-index: -100;
+
+}
+
+.test {
+    height: 1px;
+    bottom: 100px;
+  
+}
+
+
+.bannerWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.bannerTitle {
+    margin: 0px;
+    margin-top: 100px;
+   
+}
+
+.landingHeader {
+
+    margin: 0px;
+    padding: 0px;
+
+    
+    display: flex;
+    justify-content: left;
+    margin-left: 56px;
+    align-items: center;
+
+    
+    text-align: center;
+    z-index: 1000;
+    text-decoration: none;
+    color: white;
+
+
+    
+}
+
+.headderWrapper {
+    
+    z-index: 1000;
+
+
+}
+
+.colorContainer {
+    overflow: hidden;
+   position: relative;
+}

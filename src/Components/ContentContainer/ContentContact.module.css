@@ -1,0 +1,35 @@
+
+.content {
+    background-color: white;
+    padding: 90px;
+    color: #324F85;
+    margin: 330px 0px 0px 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+}
+
+.logo {
+    width: 450px;
+    margin-right: 250px;
+}
+
+.contactCardWrapper {
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.144));
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px 20px 20px 20px;
+    
+}
+
+.cardh2 {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 16px;
+}

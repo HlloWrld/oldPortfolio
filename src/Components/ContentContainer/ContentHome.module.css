@@ -1,0 +1,39 @@
+
+.content {
+    color: #324F85;
+    margin: 380px 50px 0px 250px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    padding: 70px 0px 100px 0px;
+   
+}
+
+.italic {
+    font-style: italic;
+    margin-left: 80px;
+    color: #CD7093;
+}
+
+.logo {
+    width: 350px;
+    margin-right: 200px;
+}
+
+.textWrapper {
+    padding-right: 100px;
+}
+
+.aboutMe {
+    margin: 0px;
+}
+
+.contentWrapper {
+    width: 100%;
+    background-color: white;
+    height: auto;
+    
+    
+}
+

@@ -1,10 +1,12 @@
 .navBar {
-    background-color: white;
-    color: #486499;
+    background-color: rgba(255, 255, 255, 0.178);
+    color: white;
     display: flex;
     justify-content: space-between;
     gap: 16px;
-    position: sticky;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 
@@ -12,17 +14,14 @@
     margin-left: 36px;
     display: flex;
     gap: 26px;
-    color:#486499; 
+    color:white; 
 }
 
 .navRight {
     margin-right: 36px;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
     gap: 26px;
-    color:#486499; 
+    color:white; 
 }
 
 .navRight:visited {
@@ -30,7 +29,8 @@
     display: flex;
     gap: 26px;
     text-decoration: none; 
-    color:#486499; 
+    color:white; 
+
 }
 
 .center {
@@ -38,12 +38,8 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color:#486499; 
-
+    color:white; 
+    font-size: 20px;
     
-}
-
-.noDecoration {
-    text-decoration: none;
 }
 
